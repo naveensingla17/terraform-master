@@ -1,0 +1,41 @@
+==> Beginner Level
+	1. Terraform version
+=
+!=
+>=
+~> only allow the rightmost to upgrade e.g. version >= 2.5.4 --> 2.5.5 (Possible) --> 2.6.0 (Not possible)
+
+	2. Which tool you use for terraform development, Have you used visual code ?
+	
+	3. Terraform workflow
+Ans: Terraform init --> terraform plan --> terraform apply --> terraform destroy
+
+	4. Difference in locals, variables, data, output, etc.
+	
+	5. Type of input variables
+	
+	6. When we use dependson ?
+	
+	7. Can we use count and for each together ?
+	
+	8. Difference in count and for each ?
+Ans: Count create multiple instance based on count value
+for each will create multiple instance based on set of string
+
+	9. Diff in Terraform and Ansible
+	
+	10. Where we define terraform version, What will happen if terraform version is changed
+Ans: Syntax problem
+
+	11. What is terraform block, resource block, provider block?
+	
+	12. Shortcut for bulk comment / uncomment
+	
+	13. How do you start right terraform code ? 
+	Ans: Go to terraform registry --> search for provider
+	
+	14. When we can use the lifecycle block ?
+create before destroy
+prevent destroy
+ignore_changes
+	15. 
