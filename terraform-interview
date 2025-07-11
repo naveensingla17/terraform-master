@@ -23,6 +23,8 @@ Ans: Count create multiple instance based on count value
 for each will create multiple instance based on set of string
 
 	9. Diff in Terraform and Ansible
+	Ans: Terraform (Provisioning Tool)
+		Ansible (CMT - Configuration Management Tool)
 	
 	10. Where we define terraform version, What will happen if terraform version is changed
 Ans: Syntax problem
